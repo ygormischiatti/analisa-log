@@ -24,4 +24,4 @@ jobs:
           cat resultado.txt
 
       - name: Validar resultado
-        run: grep -q "10.10.10.10" resultado.txt
+        run: grep -q "203.0.113.10" resultado.txt
